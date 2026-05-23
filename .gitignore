@@ -1,0 +1,140 @@
+# Dependencies & build
+node_modules/
+vendor/
+bower_components/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+firebase-debug.*.log*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# iOS/Android
+ios/Pods/
+android/.gradle/
+*.apk
+*.aab
+
+# Firebase
+.firebase/
+
+# Coverage & cache
+coverage/
+.nyc_output/
+.cache/
+*.cache
+.eslintcache
+
+*.vmdk
+webOS_TV_SDK/Emulator/
+
+# === macbook15transfer auto-ignore ===
+# Dependencies & build
+node_modules/
+vendor/
+bower_components/
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / IDE / cache
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+coverage/
+.cache/
+*.cache
+__pycache__/
+.venv/
+venv/
+.dart_tool/
+.packages
+ios/Pods/
+android/.gradle/
+.firebase/
+
+# Large binaries (GitHub limit)
+*.vmdk
+*.dmg
+*.iso
+webOS_TV_SDK/Emulator/
+webOS_TV_SDK/Simulator/
+webOS_TV_SDK/CLI/
+
+# Credentials (อย่า push ขึ้น GitHub)
+*firebase-adminsdk*.json
+*adminsdk*.json
+*-firebase-adminsdk-*.json
+*research-thai-rtaf*.json
+functions/tamniyombot*.json
+serviceAccount*.json
+credentials.json
+client_secret.js
+client_id.json
+**/client_secret.js
+**/client_id.json
+token.json
+*.pem
+*.p12
+ngrokpython/agentapikey
+ngrokpython/ngrokagent.py
+webapp/src/task-cloud-function-*.json
+webapp/src/services/googleCalendar.js
+webhook/index.js
+functions/drc.js
+functions_/
+line/index.js
+drcweb/src/livelocation/livelocation.js
+qca-map/src/App.js
+webapp/src/pages/MapView/MapView.js
+admin/src/pages/MapView/MapView.js
+.github/workflows/
+
